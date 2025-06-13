@@ -1,9 +1,17 @@
+## ⚠️ Notice
+
+This version of `ox_doorlock` has been modified to improve compatibility with the latest version of `qb-core`. It is based on a prior QB-compatible version but updated.
+
+Please be aware that `ox_doorlock` is the property of the Overextended team and remains under its original license. All changes in this version aim to retain core functionality while adapting it for modern `qb-core` environments.
+
+**Note:** The Overextended team does not provide support for `qb-core`, and this project has been archived. Please avoid contacting them regarding this modified version.
+
 # Ox Doorlock
 
-Door management resource, with compatibility for [ox_core](https://github.com/communityox/ox_core), [es_extended](https://github.com/esx-framework/esx_core), [nd_core](https://github.com/ND-Framework/ND_Core), and [qbox](https://github.com/Qbox-project/qbx_core).  
+Door management resource, with compatibility for [ox_core](https://github.com/communityox/ox_core), [qb-core](https://github.com/qbcore-framework/qb-core), [es_extended](https://github.com/esx-framework/esx_core), [nd_core](https://github.com/ND-Framework/ND_Core), and [qbox](https://github.com/Qbox-project/qbx_core).  
 Successor to nui_doorlock with less scuff and more stuff.
 
-_The UI needs to be built - use the [latest release](https://github.com/communityox/ox_doorlock/releases/latest/download/ox_doorlock.zip) if you want to drag-n-drop._
+_The UI needs to be built - use the [latest release](https://github.com/The-Order-Of-The-Sacred-Framework/ox_doorlock/releases/latest/download/ox_doorlock.zip) if you want to drag-n-drop._
 
 ## Dependencies
 
