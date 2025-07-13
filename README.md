@@ -9,16 +9,16 @@ Please be aware that `ox_doorlock` is the property of the Overextended team and 
 # Ox Doorlock
 
 
-![](https://img.shields.io/github/downloads/The-Order-Of-The-Sacred-Framework/ox_doorlock/total?logo=github)
-![](https://img.shields.io/github/downloads/The-Order-Of-The-Sacred-Framework/ox_doorlock/latest/total?logo=github)
-![](https://img.shields.io/github/contributors/The-Order-Of-The-Sacred-Framework/ox_doorlock?logo=github)
-![](https://img.shields.io/github/v/release/The-Order-Of-The-Sacred-Framework/ox_doorlock?logo=github) 
+![](https://img.shields.io/github/downloads/TheOrderFivem/ox_doorlock/total?logo=github)
+![](https://img.shields.io/github/downloads/TheOrderFivem/ox_doorlock/latest/total?logo=github)
+![](https://img.shields.io/github/contributors/TheOrderFivem/ox_doorlock?logo=github)
+![](https://img.shields.io/github/v/release/TheOrderFivem/ox_doorlock?logo=github) 
 
 
 Door management resource, with compatibility for [ox_core](https://github.com/communityox/ox_core), [qb-core](https://github.com/qbcore-framework/qb-core), [es_extended](https://github.com/esx-framework/esx_core), [nd_core](https://github.com/ND-Framework/ND_Core), and [qbox](https://github.com/Qbox-project/qbx_core).  
 Successor to nui_doorlock with less scuff and more stuff.
 
-_The UI needs to be built - use the [latest release](https://github.com/The-Order-Of-The-Sacred-Framework/ox_doorlock/releases/latest/download/ox_doorlock.zip) if you want to drag-n-drop._
+_The UI needs to be built - use the [latest release](https://github.com/TheOrderFivem/ox_doorlock/releases/latest/download/ox_doorlock.zip) if you want to drag-n-drop._
 
 ## Dependencies
 
@@ -35,6 +35,6 @@ mysql-async is no longer supported.
 
 Used for some UI elements (i.e. notifications, progress circle, input), and cache.
 
-### [ox_target](https://github.com/The-Order-Of-The-Sacred-Framework/ox_target) (preferred) or [qb-target](https://github.com/qbcore-framework/qb-target) or [qtarget](https://github.com/overextended/qtarget) (deprecated)
+### [ox_target](https://github.com/TheOrderFivem/ox_target) (preferred) or [qb-target](https://github.com/qbcore-framework/qb-target) or [qtarget](https://github.com/overextended/qtarget) (deprecated)
 
 (Optional) Used for lockpicking.
