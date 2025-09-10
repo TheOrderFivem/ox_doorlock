@@ -228,10 +228,10 @@ local function isAuthorised(playerId, door, lockpick)
 		if not authorised and door.items then
 			authorised = DoesPlayerHaveItem(player, door.items) or nil
 		end
+	end
 
-		if authorised ~= nil and door.passcode then
-			authorised = door.passcode == lib.callback.await('ox_doorlock:inputPassCode', playerId)
-		end
+	if authorised ~= nil and door.passcode then
+		authorised = door.passcode == lib.callback.await('ox_doorlock:inputPassCode', playerId)
 	end
 
 	return authorised
@@ -343,6 +343,20 @@ end)
 RegisterNetEvent('ox_doorlock:breakLockpick', function()
 	local player = GetPlayer(source)
 	return player and DoesPlayerHaveItem(player, Config.LockpickItems, true)
+end)
+
+RegisterNetEvent('ox_doorlock:teleportToDoor', function(id)
+	if not IsPlayerAceAllowed(source, 'command.doorlock') then
+		return
+	end
+	
+	local door = doors[id]
+	if not door or not door.coords then
+		return
+	end
+	
+	local ped = GetPlayerPed(source)
+	SetEntityCoords(ped, door.coords.x, door.coords.y, door.coords.z, false, false, false, false)
 end)
 
 lib.addCommand('doorlock', {
